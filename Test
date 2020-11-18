@@ -1,0 +1,66 @@
+Public class login{
+
+WebDrriver driver;
+
+By username = By.name(“usermname”);
+By password = By.name(“password”);
+By title = By.id(“title”);
+
+
+public login(Webdriver driver){
+
+this.driver = driver;
+}
+
+
+
+public setusername (String username){
+
+driver.findElement(username).sendkeys(username);
+
+}
+
+public getTitle(){
+
+griver.findElemen.
+
+
+
+
+public class testlogin {
+
+
+Webdriver driver ;
+
+
+login logn;
+
+
+@beforeTest
+
+public void setup(){
+
+System.setProperty(“WebDriver.chrome.driver”, “path”);
+
+driver= new CromeDriver();
+
+driver.get(“URL”);
+}
+
+
+@Test
+
+public void testloginpage(){
+
+
+logn = new login(driver);
+
+logn. setusername(“akash”);
+
+
+}
+
+
+
+
+
